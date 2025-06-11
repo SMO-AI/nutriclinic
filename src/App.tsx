@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './components/Navigation';
-import Hero from './components/Hero';
+import Hero from '../Hero';
 import TeamSection from './components/TeamSection';
 import HowWeWorkSection from './components/HowWeWorkSection';
 import SymptomsSection from './components/SymptomsSection';
