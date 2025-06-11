@@ -1,15 +1,15 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import Hero from '../Hero';
-import TeamSection from './components/TeamSection';
-import HowWeWorkSection from './components/HowWeWorkSection';
-import SymptomsSection from './components/SymptomsSection';
-import ResultsSection from './components/ResultsSection';
-import ServicesSection from './components/ServicesSection';
-import ExpertsSection from './components/ExpertsSection';
-import ConsultationSection from './components/ConsultationSection';
-import ClinicHistorySection from './components/ClinicHistorySection';
-import Footer from './components/Footer';
+import Navigation from './components/shared/Navigation';
+import HeroSection from './components/sections/HeroSection';
+import TeamSection from './components/sections/TeamSection';
+import HowWeWorkSection from './components/sections/HowWeWorkSection';
+import SymptomsSection from './components/sections/SymptomsSection';
+import ResultsSection from './components/sections/ResultsSection';
+import ServicesSection from './components/sections/ServicesSection';
+import ExpertsSection from './components/sections/ExpertsSection';
+import ConsultationSection from './components/sections/ConsultationSection';
+import ClinicHistorySection from './components/sections/ClinicHistorySection';
+import Footer from './components/shared/Footer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <section id="about">
         <TeamSection />
       </section>
-      <Hero />
+      <HeroSection />
       <HowWeWorkSection />
       <SymptomsSection />
       <ResultsSection />
